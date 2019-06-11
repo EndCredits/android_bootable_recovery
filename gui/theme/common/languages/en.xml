@@ -719,5 +719,26 @@
 		<string name="include_kernel_log">Include Kernel Log</string>
 		<string name="sha2_chk">Use SHA2 for hashing</string>
 		<string name="unable_set_boot_slot">Error changing bootloader boot slot to {1}</string>
+		<!-- Tools -->
+		<string name="root_btn">Root Device</string>
+		<string name="root_confirm">Try to install it?</string>
+		<string name="root_text">Magisk-v19.3 will be installed.</string>
+		<string name="tools_hdr">Tools</string>
+		<string name="tools">Tools</string>
+		<string name="unroot_btn">Unroot Device</string>
+		<string name="unroot_confirm">Are you sure you want to uninstall magisk?</string>
+		<string name="unroot_text">Unroot device</string>
+		<string name="pswrd_btn">Password reset</string>
+		<string name="pswrd_confirm">Reset all passwords from the device?</string>
+		<string name="pswrd_text">Password reset</string>
+		<string name="fixfp_btn">Fix fingerprint</string>
+		<string name="fixfp_confirm">Fix fingerprint?</string>
+		<string name="fixfp_text">Fix fingerprint scanner</string>
+		<string name="appdel_btn">Del Apps</string>
+		<string name="appdel_confirm">Run a selective removal?</string>
+		<string name="appdel_text">AROMA uninstall apps</string>
+		<string name="disable_noverify_btn">Disable Verify</string>
+		<string name="disable_noverify_confirm">Disable Verify Boot?</string>
+		<string name="disable_noverify_text">Disable will cause device can not update by OTA.</string>
 	</resources>
 </language>
