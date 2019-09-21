@@ -141,6 +141,8 @@
 #define TW_USE_SHA2                 "tw_use_sha2"
 #define TW_NO_SHA2                  "tw_no_sha2"
 
+#define TW_SAR_ENABLED              "tw_sar_enabled"
+
 // Also used:
 //   tw_boot_is_mountable
 //   tw_system_is_mountable

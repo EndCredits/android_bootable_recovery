@@ -920,6 +920,8 @@ void DataManager::SetDefaultValues()
 
 	mData.SetValue("tw_enable_adb_backup", "0");
 
+	mPersist.SetValue(TW_SAR_ENABLED, "0");
+
 	if (TWFunc::Path_Exists("/sbin/magiskboot"))
 		mConst.SetValue("tw_has_repack_tools", "1");
 	else
@@ -1141,4 +1143,27 @@ void DataManager::Vibrate(const string& varName)
 		vibrate(vib_value);
 	}
 #endif
+}
+
+void DataManager::ConfigSAR(int enabled)
+{
+	int status = 0;
+
+	GetValue(TW_SAR_ENABLED, status);
+
+	if (enabled)
+		LOGINFO("SAR Mode: Enabling...");
+	else
+		LOGINFO("SAR Mode: Disabling...");
+
+	if (status == enabled) {
+	        if (enabled)
+			LOGERR(" Already Enabled!\n");
+		else
+			LOGERR(" Already Disabled!\n");
+		return;
+	} else {
+		SetValue(TW_SAR_ENABLED, enabled, 1);
+		LOGINFO("Done!\n");
+	}
 }

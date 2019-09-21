@@ -64,6 +64,8 @@ public:
 	static string GetCurrentStoragePath(void);
 	static string GetSettingsStoragePath(void);
 
+	static void ConfigSAR(int);
+
 protected:
 	static string mBackingFile;
 	static int mInitialized;
