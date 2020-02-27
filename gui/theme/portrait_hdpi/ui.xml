@@ -229,16 +229,16 @@
 		<variable name="pattern_dot_dia" value="32"/>
 		<variable name="pattern_line_w" value="12"/>
 		<variable name="pattern_size" value="828"/>
-		<variable name="config_sar_x" value="874"/>
+		<variable name="config_sar_x" value="935"/>
 		<variable name="config_sar_y" value="165"/>
 
 		<variable name="darktransparent" value="#000000BB"/>
 		<variable name="dialog_x" value="40"/>
-		<variable name="dialog_y" value="600"/>
+		<variable name="dialog_y" value="500"/>
 		<variable name="dialog_cancel_x" value="535"/>
-		<variable name="dialog_cancel_y" value="1360"/>
+		<variable name="dialog_cancel_y" value="1350"/>
 		<variable name="dialog_config_x" value="545"/>
-		<variable name="dialog_config_y" value="1200"/>
+		<variable name="dialog_config_y" value="1180"/>
 	</variables>
 
 	<mousecursor>
